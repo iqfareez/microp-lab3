@@ -4,99 +4,52 @@
 ; Count from 0 - 9 on a 7 segment display
 ;
 ; Created: 15/11/2022 12:16:17 AM
-; Author : Group 2
+; Author : Group 2 (Fareez)
 ;
 
 ; Replace with your application code
 start:
-    inc r16
-    rcall main
+	; initial counter value
+	ldi r18, 0;
 
-main:
+	; set PORTD to OUTPUT
 	ldi r16, 0xff
 	out ddrd, r16
-	call zero
-	call delay
-	call one
-	call delay
-	call two
-	call delay
-	call three
-	call delay
-	call four
-	call delay
-	call five
-	call delay
-	call six
-	call delay
-	call seven
-	call delay
-	call eight
-	call delay
-	call nine
-	call delay
+
+	rcall main
+
+main:
+	; Output value to GPIO
+	mov r20, r18 ; Copy content r18 to r20 (temporary)
+	; Shift bits (according to location of the pins)
+	lsl r20
+	lsl r20
+	lsl r20
+	out portd, r20
+
+	rcall delay
+
+	ldi r17, 1 ; increment
+	add r18, r17 ; increment current counter
+
+	cpi r18, 10 ; compare current counter if match 10
+	breq reset ; if true, go to reset
+	rjmp main ; if false, continue looping the 'main' block
+
+reset:
+	ldi r18, 0 ; reset counter to 0
 	rjmp main
 
-zero:
-	clr r17
-	out portd, r17
-	ret
-
-one: 
-	ldi r17, 0x08
-	out portd, r17
-	ret
-
-two: 
-	ldi r17, 0x10
-	out portd, r17
-	ret
-
-three: 
-	ldi r17, 0x18
-	out portd, r17
-	ret
-
-four: 
-	ldi r17, 0x20
-	out portd, r17
-	ret
-
-five: 
-	ldi r17, 0x28
-	out portd, r17
-	ret
-
-six: 
-	ldi r17, 0x30
-	out portd, r17
-	ret
-
-seven: 
-	ldi r17, 0x38
-	out portd, r17
-	ret
-
-eight: 
-	ldi r17, 0x40
-	out portd, r17
-	ret
-
-nine: 
-	ldi r17, 0x48
-	out portd, r17
-	ret
-
 delay:
-	ldi r18, 100
-	ldi r19, 63
-	ldi r20, 10
+	ldi r24, 100
+	ldi r25, 63
+	ldi r26, 10
 
-L1: dec  r20
+L1: dec  r26
     brne L1
-    dec  r19
+    dec  r25
     brne L1
-    dec  r18
+    dec  r24
     brne L1
 	nop
 	ret
