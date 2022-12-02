@@ -27,27 +27,50 @@ ATMEGA328P Lab
 
 ### Experiment 3A
 
-#### Project files
+#### Task 1: One input, one output
 
-- Task 1: One input, one output
-- Task 2: Two inputs, two output
-- Task 3: Running lights
+##### Circuit diagram
 
-#### Circuit diagram
+##### Results
 
-#### Results
+#### Task 2: Two inputs, two output
+
+##### Circuit diagram
+
+##### Results
+
+#### Task 3: Running lights
+
+##### Circuit diagram
+
+##### Results
 
 ### Experiment 3B
 
-#### Project files
+#### [Task 1](/Exp2-Task1/): Display digit `4` to 7-segment display **without** using HD74LS48P decoder.
 
-- [Task 1](/Exp2-Task1/): Display digit `4` to 7-segment display **without** using HD74LS48P decoder.
-- [Task 2](/Exp2-Task2/): Display digit `4` to 7-segment **using** HD74LS48P decoder.
+##### Circuit diagram
 
-#### Circuit diagram
+##### Results
 
-#### Results
+#### [Task 2](/Exp2-Task2/): Display digit `4` to 7-segment **using** HD74LS48P decoder.
+
+##### Circuit diagram
+
+##### Results
 
 ### Experiment 4
 
-Motor
+_Proteus simulation only, no real circuit_
+
+#### [Task 1](/Exp4-Task1/): Drive the DC motor in a clockwise and counterclockwise direction
+
+##### Circuit diagram
+
+##### Results
+
+#### [Task 2](/Exp4-Task2/): Control the speed of the motor using PWM
+
+##### Circuit diagram
+
+##### Results
