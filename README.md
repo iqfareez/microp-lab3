@@ -96,6 +96,8 @@ https://user-images.githubusercontent.com/60868965/205410284-ea86715a-1123-4808-
 
 _Proteus simulation only, no real circuit_
 
+You may need to add [Arduino UNO Library for Proteus V2.0](https://www.theengineeringprojects.com/2021/03/arduino-uno-library-for-proteus-v2.html)
+
 #### [Task 1](/Exp4-Task1/): Drive the DC motor in a clockwise and counterclockwise direction
 
 ##### Circuit diagram
