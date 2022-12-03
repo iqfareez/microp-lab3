@@ -67,6 +67,8 @@ https://user-images.githubusercontent.com/60868965/205410421-fd98b6d9-ae6f-4110-
 
 ##### Results
 
+![7segtask1](https://user-images.githubusercontent.com/60868965/205414368-95878d2d-1f94-4c34-985d-244ff4ccd8f3.jpg)
+
 #### [Task 2](/Exp2-Task2/): Display digit `4` to 7-segment **using** HD74LS48P decoder.
 
 ##### Circuit diagram
@@ -75,8 +77,11 @@ https://user-images.githubusercontent.com/60868965/205410421-fd98b6d9-ae6f-4110-
 
 ##### Results
 
+_oops, appear to be missing. The image the result below but instead of changing numbers, it just shows static digit 4._
 
 #### [Task 3](/Exp2-Task3/): Count 0-9 on the 7-Segment Display
+
+_I wrote a whole article about this task [here](https://iqfareez.com/blog/count-09-using-arduino-uno-atmega328p-in-assembly)_
 
 ##### Circuit diagram
 
