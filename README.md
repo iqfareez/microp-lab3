@@ -6,6 +6,7 @@ ATMEGA328P Lab
 
 - Atmel Studio 7
 - [XLoader](https://drive.google.com/file/d/1BTLT7Clmqs_WUpZJBSc3pkpbzsU62Ep4/view?usp=share_link)
+- Proteus 8 (simulation)
 
 ## Hardware needed
 
@@ -77,7 +78,7 @@ https://user-images.githubusercontent.com/60868965/205410421-fd98b6d9-ae6f-4110-
 
 ##### Results
 
-_oops, appear to be missing. The image the result below but instead of changing numbers, it just shows static digit 4._
+_oops, appear to be missing. Imagine the result as below but instead of changing numbers, it just shows static digit 4._
 
 #### [Task 3](/Exp2-Task3/): Count 0-9 on the 7-Segment Display
 
