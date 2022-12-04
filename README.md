@@ -112,8 +112,8 @@ https://user-images.githubusercontent.com/60868965/205409807-53c31810-1a06-454f-
 
 ##### Circuit diagram
 
-![motor-speed-2](https://user-images.githubusercontent.com/60868965/205409918-6bc1f4b2-110c-4adb-85ca-12fcd4a4dc78.SVG)
+![motor-speed-2](https://user-images.githubusercontent.com/60868965/205511533-b7de3d07-e51d-4811-9120-2a0f6fe33588.SVG)
 
 ##### Results
 
-https://user-images.githubusercontent.com/60868965/205409831-1503f249-462d-424d-852a-da7804e6e401.mp4
+https://user-images.githubusercontent.com/60868965/205511538-f7160f55-728a-4192-870f-17105472be79.mp4
