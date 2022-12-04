@@ -8,8 +8,8 @@
 ; Replace with your application code
 start:
     ldi r16, 0xff ; HIGH
-	ldi r17, 0x00 ; LOW
-    out ddrd, r16 ; Direction PORTD as OUTPUT
+	; ldi r17, 0x00 ; LOW
+    out ddrd, r16 ; Direction all PORTD as OUTPUT
 
 	; Setting for TCCR0A
 	ldi r18, 0b10000011 ; Normal output channel A, disable PWM channel B, Phase correct PWM
