@@ -108,6 +108,8 @@ You may need to add [Arduino UNO Library for Proteus V2.0](https://www.theengine
 
 https://user-images.githubusercontent.com/60868965/205409807-53c31810-1a06-454f-aa2e-1bbf304cd524.mp4
 
+[[Watch on YouTube]](https://youtu.be/-ITYjvB3d9s)
+
 #### [Task 2](/Exp4-Task2/): Control the speed of the motor using PWM
 
 ##### Circuit diagram
@@ -117,3 +119,5 @@ https://user-images.githubusercontent.com/60868965/205409807-53c31810-1a06-454f-
 ##### Results
 
 https://user-images.githubusercontent.com/60868965/205511538-f7160f55-728a-4192-870f-17105472be79.mp4
+
+[[Watch on YouTube]](https://youtu.be/G-6NhrX2K1Q)
