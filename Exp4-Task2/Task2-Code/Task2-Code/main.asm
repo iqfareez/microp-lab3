@@ -19,19 +19,19 @@ start:
 	out tccr0b, r18
 
 slow:
-	ldi r19, 23 ; duty cycle 9%
+	ldi r19, 40 ; duty cycle 15%
 	out ocr0a, r19
 	rcall delay
 	rjmp medium
 
 medium:
-	ldi r19, 120 ; duty cycle 47%
+	ldi r19, 100 ; duty cycle 39%
 	out ocr0a, r19
 	rcall delay
 	rjmp fast
 
 fast:
-	ldi r19, 255 ; duty cycle 100%
+	ldi r19, 200 ; duty cycle 100%
 	out ocr0a, r19
 	rcall delay
 	rjmp slow
