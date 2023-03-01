@@ -121,3 +121,14 @@ https://user-images.githubusercontent.com/60868965/205409807-53c31810-1a06-454f-
 https://user-images.githubusercontent.com/60868965/205511538-f7160f55-728a-4192-870f-17105472be79.mp4
 
 [[Watch on YouTube]](https://youtu.be/G-6NhrX2K1Q)
+
+## Project
+
+We make a **Rakaat Counter**!
+
+> Sejadah Raka’at Counter aims to automate the counting of prayer cycles (raka’at) during prayers in mosques and other places of worship. The system utilizes a combination of mechanical, electrical, and software components to accurately and efficiently count the number of prayer cycles performed by individuals in a designated area. This project aims to provide an accurate and convenient solution for keeping track of an individual's prayer activity and helping to get rid of feelings of misgiving.
+
+|                                           |                                           |
+| :---------------------------------------: | :---------------------------------------: |
+| ![image1](https://imgur.com/gy2YQ2D.png)  | ![image2](https://imgur.com/7haNwWe.png)  |
+| Watch [Video1](https://imgur.com/hraWHLO) | Watch [Video2](https://imgur.com/jjfFFIz) |
